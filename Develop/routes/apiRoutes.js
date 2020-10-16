@@ -1,4 +1,4 @@
-var db = require("../models");
+var db = require("../models/workout");
 
 module.exports = function(app) {
 
@@ -25,11 +25,11 @@ module.exports = function(app) {
     })
 
     // Used by api.js to add an exercise to a workout
-    app.put("/api/workouts/" + id, ({body, params}, res) => {
+    app.put("/api/workouts/:id", ({body, params}, res) => {
         // console.log(body, params)
         const workoutId = params.id;
         let savedExercises = [];
-// "/api/workouts/:id"
+// 
 
 
         // gets all the currently saved exercises in the current workout
