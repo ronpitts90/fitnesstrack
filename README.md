@@ -22,17 +22,20 @@ This application can be used to make an easier way for the average perosn to kee
 ## Steps
 1. First I run npm and install npm packages, express, and express-handlebars 
 2. Next, I setup my schema inside of workout.js 
-3. Then, I create my config folder to setup my orm and conenction to open up the PORT
-4. I set up my burger.js file that will call the ORM functions and set up the router 
-5. I create a views folder to contain the handlebars  
+3. Then, I create my routes folder to setup and create htmlRoues and apiRoutes to add new data 
+4. I set up my server.js file that will require everything needed
+5. I create my heroku and mongoDB accounts to connect and be deployed via heroku 
 
 
 ## About
-This app uses express, npm, mysql, and handlebars 
+This app uses express, npm, Mongo, and Heroku
 
 ## Directions
 
-On the site create your burger and add/devour at will
+On the site create your recent workout using the prompts and track your progress
 
 ## Heroku link
-https://fierce-sands-41632.herokuapp.com/ 
+https://morning-harbor-52008.herokuapp.com/?id=5f8a126869677800176083fa
+
+## Github link
+https://github.com/ronpitts90/fitnesstrack
