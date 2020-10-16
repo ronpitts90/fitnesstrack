@@ -55,3 +55,13 @@ You are required to submit the following:
 * The URL to the deployed application
 
 * The URL to the GitHub repository
+
+
+
+<!-- 
+use workout
+db.resistance.insert({"name" : "benchpress", "weight" : "100", "sets" :"4", "reps" : "10", "duration": "10"})
+db.cardio.insert({"name" : "running", "distance" : "5", "duartion" : "10"})
+
+
+ -->

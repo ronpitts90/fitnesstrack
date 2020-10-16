@@ -16,7 +16,7 @@ module.exports = function(app) {
     // Creates a new workout in the workout database
     app.post("/api/workouts", async (req, res)=> {
         try{
-            const response = await db.Workout.create({type: "workout"})
+            const response = await db.Workout.create({})
             res.json(response);
         }
         catch(err){
